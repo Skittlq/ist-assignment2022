@@ -16,7 +16,7 @@
 		}
 
 		p {
-			font-family: Arial, sans-serif;
+			font-family: "Montserrat";
 			color: white;
 		}
 
@@ -56,12 +56,14 @@
 		}
 
 		header {
-			background-color: #2F3136;
-			padding: 20px;
+			background-color: #374552;
+			padding: 0px;
 			text-align: center;
 			font-size: 20px;
 			color: white;
-			border-radius: 16px;
+			border-radius: 0px;
+			margin: -8px -8px 0px -8px;
+				box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.349);
 		}
 		section {
 			background-color: #2F3136;
