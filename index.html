@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>IST Assignment 2022</title>
-		<link href="style.css" rel="stylesheet">
-		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-	</head>
-	<body>
-		<header>
-			<img src="funbite.png" alt="Funbite Logo" width="50%" height="50%">
-		</header>
-	</body>
+  <style>
+    .darkmodebutton:hover {
+      background-color: #7781f2;
+      border: none;
+      color: white;
+      padding: 10px 16px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 4px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition-duration: 0.4s;
+    }
+    .darkmodebutton {
+      background-color: #5865f2;
+      border: none;
+      color: white;
+      padding: 10px 16px;
+      text-align: center;
+      text-decoration: none;
+      font-family: "Montserrat";
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 4px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition-duration: 0.4s;
+    }
+  </style>
+  <head>
+    <title>IST Assignment 2022</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link id="theme" rel="stylesheet" type="text/css" href="light.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <script src="dark-light-mode.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="funbite.png" alt="Funbite Logo" width="50%" height="50%" />
+    </header>
+    <div id="navbar">
+      <a class="active" href="javascript:void(0)">Home</a>
+      <a href="javascript:void(0)">Games</a>
+      <a href="javascript:void(0)">Video of the Day</a>
+      <a href="javascript:void(0)">YouTube Channels</a>
+      <button onclick="toggleTheme()" button class="button darkmodebutton">
+        Toggle Dark Mode
+      </button>
+    </div>
+    <br />
+  </body>
 </html>
