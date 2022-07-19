@@ -1,5 +1,6 @@
 		body {
 			background-color: white;
+			transition-duration: 0.4s;
 		}
 
 		h1 {
@@ -7,52 +8,61 @@
 			font-family: Arial, sans-serif;
 			font-weight: normal;
 			color: black;
+			transition-duration: 0.4s;
 
 		}
 
 		h2 {
 			font-family: Arial, sans-serif;
 			color: black;
+			transition-duration: 0.4s;
 		}
 
 		p {
 			font-family: "Montserrat";
 			color: black;
+			transition-duration: 0.4s;
 		}
 
 		summary {
 			font-family: Arial, sans-serif;
 			color: black;
 			background-color: white;
+			transition-duration: 0.4s;
 		}
 
 		li {
 			font-family: Arial, sans-serif;
 			color: black;
+			transition-duration: 0.4s;
 		}
 
 		a:link {
 			color: lightcyan;
 			background-color: transparent;
 			text-decoration: none;
+			transition-duration: 0.4s;
 		}
 
 		a:visited {
 			color: lightsteelblue;
 			background-color: transparent;
 			text-decoration: none;
+			transition-duration: 0.4s;
 		}
 
 		a:hover {
 			color: paleturquoise;
 			background-color: transparent;
 			text-decoration: underline;
+			transition-duration: 0.4s;
 		}
 
 		a:active {
 			color: lightsteelblue;
 			background-color: transparent;
 			text-decoration: underline;
+			transition-duration: 0.4s;
 		}
 
 		header {
@@ -64,6 +74,7 @@
 			border-radius: 0px;
 			margin: -8px -8px 0px -8px;
 			box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.349);
+			transition-duration: 0.4s;
 		}
 		section {
 			background-color: white;
@@ -72,6 +83,7 @@
 			font-size: 20px;
 			color: black;
 			border-radius: 16px;
+			transition-duration: 0.4s;
 		}
 		.button1 {
 			background-color: #5865F2;
@@ -137,13 +149,15 @@
  		hr{
         		height: 1px;
         		background-color: #575b64;
-        		border: none;				  
+        		border: none;		
+				transition-duration: 0.4s;		  
 		}	
 		#navbar {
 			overflow: hidden;
 			background-color: #327dbb;
 			font-family: "Montserrat";
 			margin: 0px -8px 0px -8px;
+			transition-duration: 0.4s;
 		  }
 		  
 		  #navbar a {
@@ -155,16 +169,19 @@
 			margin: 0px 0px 0px 0px;
 			text-decoration: none;
 			font-size: 17px;
+			transition-duration: 0.4s;
 		  }
 		  
 		  #navbar a:hover {
 			background-color: rgb(61, 144, 211);
 			color: white;
+			transition-duration: 0.4s;
 		  }
 		  
 		  #navbar a.active {
 			background-color: #04AA6D;
 			color: white;
+			transition-duration: 0.4s;
 		  }
 		  
 		  .content {
@@ -179,4 +196,30 @@
 		  
 		  .sticky + .content {
 			padding-top: 60px;
+		  }
+		  
+		  .darkmodebutton:hover {
+			background-color: rgb(61, 144, 211);
+			border: none;
+			color: white;
+			padding: 14px 16px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			cursor: pointer;
+			transition-duration: 0.4s;
+		  }
+		  .darkmodebutton {
+			background-color: #327dbb;
+			border: none;
+			color: white;
+			padding: 14px 16px;
+			text-align: center;
+			text-decoration: none;
+			font-family: "Montserrat";
+			display: inline-block;
+			font-size: 16px;
+			cursor: pointer;
+			transition-duration: 0.4s;
 		  }
