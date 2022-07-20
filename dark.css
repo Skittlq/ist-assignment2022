@@ -241,3 +241,14 @@
 					text-align: center;
 					transition-duration: 0.4s;
 				  }
+				  .g-signin2 {
+					position: absolute;
+					right: 0px;
+					margin: -41.5px 5px;
+					transition-duration: 0.4s;
+					background-color: #ffffff00;
+					border: #ffffff00;
+					cursor: pointer;
+			  }
+	
+	

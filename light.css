@@ -38,28 +38,28 @@
 		}
 
 		a:link {
-			color: lightcyan;
+			color: rgb(75, 159, 255);
 			background-color: transparent;
 			text-decoration: none;
 			transition-duration: 0.4s;
 		}
 
 		a:visited {
-			color: lightsteelblue;
+			color: rgb(0, 110, 255);
 			background-color: transparent;
 			text-decoration: none;
 			transition-duration: 0.4s;
 		}
 
 		a:hover {
-			color: paleturquoise;
+			color: rgb(0, 89, 255);
 			background-color: transparent;
 			text-decoration: underline;
 			transition-duration: 0.4s;
 		}
 
 		a:active {
-			color: lightsteelblue;
+			color: rgb(255, 255, 255);
 			background-color: transparent;
 			text-decoration: underline;
 			transition-duration: 0.4s;
@@ -241,4 +241,13 @@
 			font-size: 30px;
 			text-align: center;
 			transition-duration: 0.4s;
+		  }
+		  .g-signin2 {
+				position: absolute;
+				right: 0px;
+				margin: -46.5px 0px;
+				transition-duration: 0.4s;
+				background-color: #ffffff00;
+				border: #ffffff00;
+				cursor: pointer;
 		  }
