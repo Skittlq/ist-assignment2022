@@ -59,7 +59,7 @@
 		}
 
 		a:active {
-			color: rgb(255, 255, 255);
+			color: #f8f8f8;
 			background-color: transparent;
 			text-decoration: underline;
 			transition-duration: 0.4s;
@@ -253,7 +253,7 @@
 		  .grid-item {
 			background-color: #f8f8f8;
 			border: 4px solid rgb(61, 144, 211);
-			padding: 200px;
+			padding: 40px;
 			font-size: 30px;
 			text-align: center;
 			transition-duration: 0.4s;
