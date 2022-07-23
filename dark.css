@@ -279,19 +279,17 @@
 
 		body::-webkit-scrollbar {
 			width: 12px;
-			/* width of the entire scrollbar */
+			transition-duration: 0.4s;
 		}
 
 		body::-webkit-scrollbar-track {
 			background: #242529;
-			/* color of the tracking area */
+			transition-duration: 0.4s;
 		}
 
 		body::-webkit-scrollbar-thumb {
 			background-color: #5d606b;
-			/* color of the scroll thumb */
 			border-radius: 20px;
-			/* roundness of the scroll thumb */
 			border: 4px solid #242529;
-			/* creates padding around scroll thumb */
+			transition-duration: 0.4s;
 		}
