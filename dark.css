@@ -266,7 +266,7 @@
 			background-color: #374552;
 			border: 2px solid #2c3741;
 			padding: "device-width";
-			padding-bottom: 20px;
+			padding-bottom: 10px;
 			padding-top: 10px;
 			font-size: "device-width";
 			text-align: center;
@@ -291,5 +291,25 @@
 			background-color: #5d606b;
 			border-radius: 20px;
 			border: 4px solid #242529;
+			transition-duration: 0.4s;
+		}
+
+		.games-image {
+			max-width: 15vw;
+			max-height: 15vw;
+			margin-bottom: 10px;
+			transition-delay: 0.4s;
+		}
+
+		.games-image:hover {
+			margin-bottom: 30px;
+			transition-duration: 0.4s;
+		}
+
+		iframe {
+			max-width: 90vw;
+			max-height: 90vw;
+			border-radius: 10px;
+			border: 7px #374552 solid;
 			transition-duration: 0.4s;
 		}
