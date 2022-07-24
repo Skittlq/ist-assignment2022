@@ -1,7 +1,7 @@
 function toggleTheme() {
     const theme = document.getElementsByTagName('link')[0];
-    const lightTheme = 'light.css';
-    const darkTheme = 'dark.css';
+    const lightTheme = "/ist-assignment2022/light.css";
+    const darkTheme = "/ist-assignment2022/dark.css";
     const newTheme = theme.getAttribute('href') === lightTheme ? darkTheme : lightTheme;
     theme.setAttribute('href', newTheme);
     // set new theme as preferred
