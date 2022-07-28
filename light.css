@@ -13,14 +13,28 @@
 		}
 
 		h2 {
+			font-weight: bolder;
+			text-align: center;
 			font-family: "Montserrat";
-			color: black;
+			color: rgb(255, 255, 255);
+			transition-duration: 0.4s;
+		}
+
+		h3 {
+			font-weight: bolder;
+			text-align: center;
+			font-family: "Montserrat";
+			color: rgb(255, 255, 255);
 			transition-duration: 0.4s;
 		}
 
 		p {
+			font-weight: bolder;
+			text-align: center;
 			font-family: "Montserrat";
-			color: black;
+			color: rgb(255, 255, 255);
+			transition-duration: 0.4s;
+			font-family: "Montserrat";
 			transition-duration: 0.4s;
 		}
 
@@ -101,8 +115,8 @@
 			transition-duration: 0.4s;
 		}
 
-		.button1 {
-			background-color: #5865F2;
+		.youtubebutton {
+			background-color: #f25858;
 			border: none;
 			color: white;
 			padding: 15px 32px;
@@ -117,8 +131,8 @@
 			transition-duration: 0.4s;
 		}
 
-		.button2 {
-			background-color: #747F8D;
+		.twitterbutton {
+			background-color: #5896f2;
 			border: none;
 			color: white;
 			padding: 15px 32px;
@@ -133,34 +147,36 @@
 			transition-duration: 0.4s;
 		}
 
-		.button1:hover {
-			background-color: #7781f2;
+		.youtubebutton:hover {
+			background-color: #f27777;
 			border: none;
 			color: white;
 			padding: 15px 32px;
 			text-align: center;
 			text-decoration: none;
 			display: inline-block;
-			font-size: 16px;
+			font-size: 20px;
 			margin: 4px 2px;
 			cursor: pointer;
 			border-radius: 8px;
 			transition-duration: 0.4s;
+			box-shadow: 0px 0px 30px rgb(255, 81, 81);
 		}
 
-		.button2:hover {
-			background-color: #959ca6;
+		.twitterbutton:hover {
+			background-color: #77b0f2;
 			border: none;
 			color: white;
 			padding: 15px 32px;
 			text-align: center;
 			text-decoration: none;
 			display: inline-block;
-			font-size: 16px;
+			font-size: 20px;
 			margin: 4px 2px;
 			cursor: pointer;
 			border-radius: 8px;
 			transition-duration: 0.4s;
+			box-shadow: 0px 0px 30px rgb(0, 140, 255);
 		}
 
 		img {
@@ -313,5 +329,19 @@
 			max-height: 90vw;
 			border-radius: 10px;
 			border: 7px #327DBB solid;
+			transition-duration: 0.4s;
+		}
+
+		#background-video {
+			width: 100vw;
+			filter: brightness(50%);
+			height: 100vh;
+			object-fit: cover;
+			position: fixed;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			z-index: -1;
 			transition-duration: 0.4s;
 		}
