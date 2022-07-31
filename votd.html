@@ -9,18 +9,19 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
     <script src="dark-light-mode.js"></script>
     <link rel="icon" type="image/x-icon" href="funbite-favicon.png"/>
+    <script src="https://kit.fontawesome.com/9976d24a3e.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
     <header>
-      <img src="funbite.png" alt="Funbite Logo" width="50%" height="50%"/>
+      <img id="funbite_logo" src="funbite.png" alt="Funbite Logo" width="50%" height="50%"/> <!-- Site header, with site logo. -->
     </header>
 
-    <div id="navbar">
-      <a href="/ist-assignment2022/index.html">Home</a>
-      <a href="/ist-assignment2022/games.html">Games</a>
-      <a class="active" href="/ist-assignment2022/votd.html">Video of the Day</a>
-      <button id="dark-light-button" onclick="toggleTheme();toggleTextTheme()" button class="button darkmodebutton">Toggle Light/Dark Mode</button> <!-- Change theme as well as preview theme -->
+    <div id="navbar">                                                                                                                                                           <!-- A navigation bar for going across pages. Displayed under the header. -->
+      <a href="/ist-assignment2022/index.html"><i class="fa-solid fa-house-chimney"></i> Home</a>                                                                                                          <!-- Home button -->
+      <a href="/ist-assignment2022/games.html"><i class="fa-solid fa-gamepad"></i> Games</a>                                                                                                                        <!-- Games button -->
+      <a class="active" href="/ist-assignment2022/votd.html"><i class="fa-solid fa-video"></i> Video of the Day</a>                                                                                                              <!-- Video of the Day button -->
+      <button id="dark-light-button" onload="toggleTextTheme()" onclick="toggleTheme();toggleTextTheme()" button class="button darkmodebutton">Toggle Light/Dark Mode</button>  <!-- Change theme and change button text. Take a look at dark-light-mode.js for more detailed explanation -->
     </div>
 
     <video id="background-video" autoplay loop muted poster="">

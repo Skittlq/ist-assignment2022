@@ -5,6 +5,7 @@
 
 		h1 {
 			text-align: center;
+			font-size: 3vw;
 			font-family: "Montserrat";
 			font-weight: normal;
 			color: rgb(255, 255, 255);
@@ -15,6 +16,7 @@
 		h2 {
 			font-weight: bolder;
 			text-align: center;
+			font-size: 2vw;
 			font-family: "Montserrat";
 			color: rgb(255, 255, 255);
 			transition-duration: 0.4s;
@@ -23,6 +25,7 @@
 		h3 {
 			font-weight: bolder;
 			text-align: center;
+			font-size: 1vw;
 			font-family: "Montserrat";
 			color: rgb(255, 255, 255);
 			transition-duration: 0.4s;
@@ -31,6 +34,7 @@
 		p {
 			font-weight: bolder;
 			text-align: center;
+			font-size: 1vw;
 			font-family: "Montserrat";
 			color: rgb(255, 255, 255);
 			transition-duration: 0.4s;
@@ -84,7 +88,7 @@
 			background-color: rgb(61, 144, 211);
 			padding: 80px;
 			text-align: center;
-			font-size: 20px;
+			font-size: 1vw;
 			color: rgb(255, 255, 255);
 			border-radius: 0px;
 			margin: 40px -8px -10px -8px;
@@ -105,6 +109,17 @@
 			transition-duration: 0.4s;
 		}
 
+		#funbite_logo {
+			transform: rotate(-2.5deg);
+			animation: logo_animation 10s infinite;
+		}
+
+		@keyframes logo_animation {
+			50% {
+				transform: rotate(2.5deg);
+			}
+		}
+
 		section {
 			background-color: white;
 			padding: 20px;
@@ -119,15 +134,15 @@
 			background-color: #f25858;
 			border: none;
 			color: white;
-			padding: 15px 32px;
+			padding: 1vw 1vw;
 			text-align: center;
 			text-decoration: none;
 			font-family: "Montserrat";
 			display: inline-block;
-			font-size: 16px;
-			margin: 4px 2px;
+			font-size: 1vw;
+			margin: 1vw 2px;
 			cursor: pointer;
-			border-radius: 8px;
+			border-radius: 0.5vw;
 			transition-duration: 0.4s;
 			box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
 		}
@@ -136,15 +151,15 @@
 			background-color: #5896f2;
 			border: none;
 			color: white;
-			padding: 15px 32px;
+			padding: 1vw 1vw;
 			text-align: center;
 			text-decoration: none;
 			font-family: "Montserrat";
 			display: inline-block;
-			font-size: 16px;
-			margin: 4px 2px;
+			font-size: 1vw;
+			margin: 1vw 2px;
 			cursor: pointer;
-			border-radius: 8px;
+			border-radius: 0.5vw;
 			transition-duration: 0.4s;
 			box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
 		}
@@ -153,32 +168,30 @@
 			background-color: #f27777;
 			border: none;
 			color: white;
-			padding: 15px 32px;
+			padding: 1vw 1vw;
 			text-align: center;
 			text-decoration: none;
 			display: inline-block;
-			font-size: 20px;
-			margin: 4px 2px;
+			font-size: 1.2vw;
+			margin: 1vw 2px;
 			cursor: pointer;
-			border-radius: 8px;
 			transition-duration: 0.4s;
-			box-shadow: 0px 0px 30px rgb(255, 81, 81);
+			box-shadow: 0px 0px 2vw rgb(255, 81, 81);
 		}
 
 		.twitterbutton:hover {
 			background-color: #77b0f2;
 			border: none;
 			color: white;
-			padding: 15px 32px;
+			padding: 1vw 1vw;
 			text-align: center;
 			text-decoration: none;
 			display: inline-block;
-			font-size: 20px;
-			margin: 4px 2px;
+			font-size: 1.2vw;
+			margin: 1vw 2px;
 			cursor: pointer;
-			border-radius: 8px;
 			transition-duration: 0.4s;
-			box-shadow: 0px 0px 30px rgb(0, 140, 255);
+			box-shadow: 0px 0px 2vw rgb(0, 140, 255);
 		}
 
 		img {
@@ -193,6 +206,9 @@
 		}
 
 		#navbar {
+			position: -webkit-sticky;
+			position: sticky;
+			top: 0;
 			overflow: hidden;
 			background-color: #327dbb;
 			font-family: "Montserrat";
@@ -206,15 +222,15 @@
 			display: block;
 			color: #f2f2f2;
 			text-align: center;
-			padding: 14px 2%;
+			padding: 1vw 2%;
 			text-decoration: none;
-			font-size: 17px;
+			font-size: 1vw;
 			transition-duration: 0.4s;
 		}
 
 		#navbar a:hover {
 			background-color: rgb(61, 144, 211);
-			padding: 14px 3%;
+			padding: 1vw 3%;
 			color: white;
 			transition-duration: 0.4s;
 		}
@@ -239,16 +255,29 @@
 			padding-top: 60px;
 		}
 
+		@media screen and (max-width: 500px) {
+			.navbar a {
+				float: none;
+				display: block;
+			}
+		}
+
+		i {
+			margin-right: 0.3vw;
+			font-size: 1.2vw;
+			offset: 100px;
+		}
+
 		.darkmodebutton:hover {
 			float: right;
 			background-color: #2c3741;
 			border: none;
 			color: white;
-			padding: 14.6px 3%;
+			padding: 1.01vw 3%;
 			text-align: center;
 			text-decoration: none;
 			display: inline-block;
-			font-size: 16px;
+			font-size: 1vw;
 			cursor: pointer;
 			transition-duration: 0.4s;
 		}
@@ -258,12 +287,12 @@
 			background-color: #327dbb;
 			border: none;
 			color: white;
-			padding: 14.6px 2%;
+			padding: 1.01vw 2%;
 			text-align: center;
 			text-decoration: none;
 			font-family: "Montserrat";
 			display: inline-block;
-			font-size: 16px;
+			font-size: 1vw;
 			cursor: pointer;
 			transition-duration: 0.4s;
 		}
@@ -271,6 +300,7 @@
 		.grid-container {
 			display: grid;
 			grid-template-columns: auto auto auto;
+			margin: 5vw;
 			background-color: rgb(61, 144, 211);
 			padding: 2px;
 			box-shadow: 0px 0px 20px rgba(0, 0, 0, 10);
